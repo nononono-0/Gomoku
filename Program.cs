@@ -1,5 +1,4 @@
-﻿
-using play;
+﻿using play;
 using System.Text.Json;
 
 namespace play
@@ -631,7 +630,7 @@ namespace play
                     Console.WriteLine("5. Выход");
                 }
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Используйте TAB для возврата в меню, F1 для выхода из игры, S для сохранения игры");
+                Console.WriteLine("Используйте TAB для возврата в меню, F1 для выхода из игры");
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.Write("Выберите опцию: ");
                 Console.ForegroundColor = ConsoleColor.White;
@@ -796,7 +795,7 @@ namespace play
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Нажмите любую клавишу для продолжения игры (TAB - меню, F1 - выход, S - сохранить игру)...");
+            Console.WriteLine("Нажмите любую клавишу для продолжения игры (TAB - меню, F1 - выход)...");
             Console.ForegroundColor = ConsoleColor.White;
 
             //Блок для выхода из игры и выхода в главное меню
@@ -1258,7 +1257,7 @@ namespace play
             Console.ForegroundColor = ConsoleColor.White;
 
             //Ввод имени первого игрока
-            Console.Write("Введите имя первого игрока (TAB - меню, F1 - выход, S - сохранить игру): ");
+            Console.Write("Введите имя первого игрока (TAB - меню, F1 - выход): ");
             Console.ForegroundColor = ConsoleColor.Yellow;
             string name1 = ReadInput();
             Console.ForegroundColor = ConsoleColor.White;
@@ -1276,7 +1275,7 @@ namespace play
             }
 
             //Ввод имени второго игрока
-            Console.Write("Введите имя второго игрока (TAB - меню, F1 - выход, S - сохранить игру): ");
+            Console.Write("Введите имя второго игрока (TAB - меню, F1 - выход): ");
             Console.ForegroundColor = ConsoleColor.Yellow;
             string name2 = ReadInput();
             Console.ForegroundColor = ConsoleColor.White;
@@ -1349,7 +1348,7 @@ namespace play
 
             //Ожидание подтверждения начала игры
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\nНажмите любую клавишу для начала игры (TAB - меню, F1 - выход, S - сохранить игру)...");
+            Console.WriteLine("\nНажмите любую клавишу для начала игры (TAB - меню, F1 - выход)...");
             Console.ForegroundColor = ConsoleColor.White;
 
             //Блок для выхода из игры
