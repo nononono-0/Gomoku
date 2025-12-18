@@ -82,6 +82,12 @@ namespace play
     //Класс для сохранения результатов игры
     class GameResult
     {
+        //Пустой конструктор для десериализации
+        public GameResult()
+        {
+
+        }
+        
         public string Player1 { get; set; }
         public string Player2 { get; set; }
         public string Winner { get; set; }
