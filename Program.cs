@@ -857,7 +857,6 @@ namespace play
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Введите координаты через пробел в формате: сначала номер строки, потом номер столбца. Например: '7 7'");
-                Console.WriteLine("S - Сохранить игру и выйти в меню");
                 Console.WriteLine("TAB - вернуться в меню (без сохранения)");
                 Console.WriteLine("F1 - выйти из игры");
                 Console.WriteLine("S - сохранить игру");
