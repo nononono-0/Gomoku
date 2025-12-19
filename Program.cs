@@ -1,4 +1,4 @@
-﻿using play;
+using play;
 using System.Text.Json;
 
 namespace play
@@ -82,12 +82,22 @@ namespace play
     //Класс для сохранения результатов игры
     class GameResult
     {
-        //Пустой конструктор для десериализации
+        //Конструктор для десериализации
         public GameResult()
         {
-
+            //Инициализируем все строковые свойства пустыми строками
+            Player1 = string.Empty;
+            Player2 = string.Empty;
+            Winner = string.Empty;
+            Result = string.Empty;
+            BlackPlayer = string.Empty;
+            WhitePlayer = string.Empty;
+            FirstPlayer = string.Empty;
+            Date = DateTime.Now;
+            BoardSize = 15;
+            MovesCounter = 0;
         }
-        
+
         public string Player1 { get; set; }
         public string Player2 { get; set; }
         public string Winner { get; set; }
